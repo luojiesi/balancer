@@ -18,11 +18,3 @@ class User(webapp2.RequestHandler):
 
         # render result page with all the info
         return
-
-    # calculate amount needs to pay
-    def post(self):
-        uids = self.request.get('uids', [])
-        #validate data
-
-        for uid in uids:
-            pass
